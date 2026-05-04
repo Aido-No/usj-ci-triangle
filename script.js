@@ -35,11 +35,6 @@ function getTriangleType(lengthA, lengthB, lengthC) {
         type = SCALENE;
       }
     }
-    // After triangle type is calculated
-gtag('event', 'triangle_calculated', {
-  'triangle_type': triangleType,  // e.g., 'EQUILATERAL'
-  'timestamp': new Date().toISOString()
-});
   }
   
   return type;
